@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/styles/main.min.css">
+  <title>Замеркин - Статья</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__top">
+        <div class="logo">
+          <a href="index.html" class="logo__link">
+            <img src="assets/images/logo.svg" alt="Логотип" class="logo__image img-responsive">
+          </a>
+        </div>
+        <ul class="header__contacts-list">
+          <li class="header__contacts-item">
+            <a href="tel:+79777267636" class="header__contacts-link">
+              +7 977 726-76-36
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__bot">
+        <div class="header__bot-inner">
+          <button class="header__btn-burger">Открыть меню
+            <svg width="32" height="32" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M30.6667 17.3057H1.33333C0.597331 17.3057 0 16.7084 0 15.9724C0 15.2364 0.597331 14.639 1.33333 14.639H30.6667C31.4027 14.639 32 15.2364 32 15.9724C32 16.7084 31.4027 17.3057 30.6667 17.3057Z" />
+              <path
+                d="M30.6667 7.08329H1.33333C0.597331 7.08329 0 6.48596 0 5.74996C0 5.01396 0.597331 4.41663 1.33333 4.41663H30.6667C31.4027 4.41663 32 5.01396 32 5.74996C32 6.48596 31.4027 7.08329 30.6667 7.08329Z" />
+              <path
+                d="M30.6667 27.5276H1.33333C0.597331 27.5276 0 26.9303 0 26.1943C0 25.4583 0.597331 24.861 1.33333 24.861H30.6667C31.4027 24.861 32 25.4583 32 26.1943C32 26.9303 31.4027 27.5276 30.6667 27.5276Z" />
+            </svg>
+          </button>
+          <div class="header__menu">
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item menu-item-has-children">
+                  <a href="about.html" class="header__nav-link">О компании</a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="team.html">Команда</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="header__nav-item">
+                  <a href="works.html" class="header__nav-link">Проекты</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="reviews.html" class="header__nav-link">Отзывы</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="blog.html" class="header__nav-link">Блог</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="stock.html" class="header__nav-link">Акции</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="contacts.html" class="header__nav-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div id="mobile-menu" class="mobile-menu">
+            <nav class="mobile-menu__nav">
+              <ul class="mobile-menu__list">
+                <li class="mobile-menu__item menu-item-has-children">
+                  <a href="about.html" class="mobile-menu__link">О компании</a><span class="mobile-menu__drop-icon"><svg
+                      width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M5.5575 6.44257L9 9.87757L12.4425 6.44257L13.5 7.50007L9 12.0001L4.5 7.50007L5.5575 6.44257Z" />
+                    </svg></span>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="team.html">Команда</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="works.html" class="mobile-menu__link">Проекты</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="reviews.html" class="mobile-menu__link">Отзывы</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="blog.html" class="mobile-menu__link">Блог</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="stock.html" class="mobile-menu__link">Акции</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="contacts.html" class="mobile-menu__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="mobile-menu__btn-close">Закрыть меню
+              <svg width="32" height="32" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1.65379 32.0001C1.23227 32.0001 0.810754 31.8397 0.490496 31.5171C-0.152431 30.8742 -0.152431 29.8318 0.490496 29.1889L29.1972 0.482195C29.8401 -0.160732 30.8825 -0.160732 31.5254 0.482195C32.1683 1.12512 32.1683 2.16747 31.5254 2.8108L2.8191 31.5171C2.49643 31.8377 2.07491 32.0001 1.65379 32.0001V32.0001Z" />
+                <path
+                  d="M30.3625 32.0001C29.941 32.0001 29.5199 31.8397 29.1992 31.5171L0.490496 2.8108C-0.152431 2.16747 -0.152431 1.12512 0.490496 0.482195C1.13342 -0.160732 2.17577 -0.160732 2.8191 0.482195L31.5254 29.1889C32.1683 29.8318 32.1683 30.8742 31.5254 31.5171C31.2027 31.8377 30.7816 32.0001 30.3625 32.0001Z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="breadcrumbs">
+        <nav class="breadcrumbs__nav">
+          <div class="container">
+            <div id="breadcrumbs" class="breadcrumbs__list"><span><span><a href="index.html">Главная</a>
+                  <span class="breadcrumbs__separator"><svg width="18" height="18" viewbox="0 0 18 18"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M6.44238 12.4425L9.87738 9L6.44238 5.5575L7.49988 4.5L11.9999 9L7.49988 13.5L6.44238 12.4425Z" />
+                    </svg></span> <span class="breadcrumb_last">Блог</span></span></span></div>
+          </div>
+        </nav>
+      </section>
+      <section class="page-content">
+        <div class="container">
+          <div class="page-content__one-col">
+            <div class="page-content__main">
+              <div class="page-content__header">
+                <h1 class="page-content__title title">Экологичность натяжных потолков</h1>
+              </div>
+              <div class="page-content__inner">
+                <div class="post">
+                  <article class="post__article">
+                    <div class="post__header">
+                      <div class="post__media">
+                        <img src="assets/images/blog/post2.jpg" alt="Изображение" class="post__media-img img-responsive">
+                      </div>
+                    </div>
+                    <div class="post__content">
+                      Материалы, используемые для установки натяжного потолка пожаробезопасны, покрытие для натяжного
+                      потолка делается из специального материала, который пропитывают специальным огнеупорным веществом
+                      и имеет класс по пожаробезопасности КМ-3. Эта классификация предусмотрена техническим регламентом
+                      по требованиям пожарной безопасности, а специальная маркировка КМ-3 указывает на то, что натяжные
+                      потолки относятся к числу пожаробезопасных материалов. Натяжные потолки соответствуют следующим
+                      параметрам:
+
+                      1. Материал из поливинилхлорида имеет уровень горючести Г-2 (умеренногорючий) – это значит, что
+                      длительность самостоятельного горения не превышает даже секунды, а повреждение при максимальной
+                      температуре дымовым газом не будет превышать 20%.
+
+                      2. ПВХ-пленка относится к низкому уровню воспламеняемости и к классу трудновоспламеняемых
+                      материалов;
+
+                      3. Пленка для натяжного потолка имеет низкую дымообразующую способность, относится к уровню
+                      дымообразования Д-3;
+
+                      4. Материал для натяжного потолка изготовлен из малоопасных для жизни человека нетоксичных
+                      веществ, принадлежит к уровню токсичности Т-2.
+
+                      ПВХ-пленка трудновоспламеняема, не поддерживает горение в случае отсутствия источника огня. Это
+                      уникальное свойство ПВХ-материала объясняет его значимость во всех международных и национальных
+                      противопожарных стандартах по сравнению с деревом и алюминием. Количество тепла, которое выделяет
+                      ПВХ-пленка, намного меньше, чем у других материалов. ПВХ уменьшает вероятность возгорания, а также
+                      скорость распространения огня в случае пожара.
+
+                      Экологичность натяжных потолков
+
+                      Благодаря натяжным потолкам вы сможете скрыть неидеальные черновые стены дома, визуально увеличить
+                      помещение и сделать его светлее. Одни из главных из плюсов современных натяжных потолков -
+                      экологичность (французские полотна торговой марки L’ete) и влагоустойчивость. Такие потолки не
+                      выделяют вредные вещества, не имеют аллергенов, запаха.
+
+                      Благодаря тому, что на них не оседает конденсат, они актуальны для установки в бассейнах, ванных
+                      комнатах и саунах, а наличие бактерицидной пленки позволяет устанавливать их в медицинских,
+                      детских и различных курортных учреждениях.
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="order">
+        <div class="container">
+          <div class="order__row">
+            <div class="order__image-wrap">
+              <img src="assets/images/main/man.png" alt="Замерщик" class="order__image img-responsive">
+            </div>
+            <div class="order__text">
+              <h2 class="section__title order__title">Закажите бесплатный вызов мастера</h2>
+              <p class="order__desc">Оставьте свой номер телефона и мы вам перезвоним</p>
+              <div class="order__footer">
+                <a href="#" class="order__btn btn__modal">Заказать звонок</a>
+                <div class="order__info">
+                  <ul class="order__info-list">
+                    <li class="order__info-item">
+                      <img src="assets/images/icons/check-green.svg" alt="иконка" class="order__info-icon">
+                      <p class="order__info-text">Бесплатная консультация</p>
+                    </li>
+                    <li class="order__info-item">
+                      <img src="assets/images/icons/check-green.svg" alt="иконка" class="order__info-icon">
+                      <p class="order__info-text">Выезд в любую точку Москвы и области</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="footer__col">
+            <div class="logo">
+              <a href="index.html" class="logo__link">
+                <img src="assets/images/logo.svg" alt="Логотип" class="logo__image img-responsive">
+              </a>
+            </div>
+            <p class="footer__copy">
+              © 2021 ООО Замеркин<br>
+              Все права защищены.
+            </p>
+          </div>
+          <div class="footer__col">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">О компании</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Полезная инфорация</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Гарантия</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Вакансии</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Акции</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Сертификаты</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Политика конфиденциальности</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <ul class="footer__contacts-list">
+              <li class="footer__contacts-item">
+                <a href="tel:+79777267636" class="footer__contacts-link">
+                  +7 977 726-76-36
+                </a>
+              </li>
+            </ul>
+            <p class="footer__address">
+              ул. Новомарьинская, 18 <br>
+              г. Москва
+            </p>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+
+                <a href="#" class="footer__social-link"><img class="footer__social-icon"
+                    src="assets/images/icons/vk.svg" alt="иконка">Вконтакте</a>
+              </li>
+              <li class="footer__social-item">
+
+                <a href="#" class="footer__social-link"><img class="footer__social-icon"
+                    src="assets/images/icons/instagram.svg" alt="иконка">Instagram</a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link"><img class="footer__social-icon"
+                    src="assets/images/icons/whatsapp.svg" alt="иконка">Whatsapp</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div id="dialog-modal-window" class="dialog-modal">
+    <div class="dialog-modal__inner">
+      <div class="dialog-modal__content">
+        <button class="dialog-modal__close">Закрыть окно<svg width="32" height="32" viewbox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M1.65379 32.0001C1.23227 32.0001 0.810754 31.8397 0.490496 31.5171C-0.152431 30.8742 -0.152431 29.8318 0.490496 29.1889L29.1972 0.482195C29.8401 -0.160732 30.8825 -0.160732 31.5254 0.482195C32.1683 1.12512 32.1683 2.16747 31.5254 2.8108L2.8191 31.5171C2.49643 31.8377 2.07491 32.0001 1.65379 32.0001V32.0001Z" />
+            <path
+              d="M30.3625 32.0001C29.941 32.0001 29.5199 31.8397 29.1992 31.5171L0.490496 2.8108C-0.152431 2.16747 -0.152431 1.12512 0.490496 0.482195C1.13342 -0.160732 2.17577 -0.160732 2.8191 0.482195L31.5254 29.1889C32.1683 29.8318 32.1683 30.8742 31.5254 31.5171C31.2027 31.8377 30.7816 32.0001 30.3625 32.0001Z" />
+          </svg></button>
+        <h4 class="dialog-modal__title">Оставьте заявку и мы перезвоним</h4>
+        <form action="" class="dialog-modal__form">
+          <div class="dialog-modal__form-group">
+            <label class="sr-only" for="username">Имя</label>
+            <div class="dialog-modal__field">
+              <input type="text" class="dialog-modal__input" name="username" placeholder="Ваше имя">
+            </div>
+          </div>
+          <div class="dialog-modal__form-group">
+            <label class="sr-only" for="userphone">Имя</label>
+            <div class="dialog-modal__field">
+              <input type="phone" class="dialog-modal__input" name="userphone" placeholder="Номер телефона">
+            </div>
+          </div>
+          <div class="dialog-modal__message">
+            Ваша заявка успешно отправлена! Мы перезвоним в течение 15 мин.
+          </div>
+          <input class="btn btn--full-width" type="submit" value="Отправить">
+          <p class="dialog-modal__text">Нажимая кнопку «Отправить», вы даёте своё согласие на обработку персональных
+            данных в соответствии с «<a href="#" target="_blank">Политикой конфиденциальности</a>».</p>
+        </form>
+        <h4 class="dialog-modal__title">или свяжитесь с нами одним из следующих способов</h4>
+        <div class="dialog-modal__links">
+          <a href="#" class="btn btn--wa btn--small">Заявка в Whatsapp</a>
+          <a href="#" class="btn btn--tg btn--small">Заявка в Telegram</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="cookie-notification">
+    <div class="container">
+      <div class="cookie-notification__inner">
+        <div class="cookie-notification__text">
+          Мы используем файлы cookie, чтобы максимально адаптировать наш веб-сайт к потребностям пользователей.
+          Нажмите «Принять», если вы хотите продолжить работу с нашим веб-сайтом прямо сейчас.
+        </div>
+        <button class="cookie-notification__btn btn__green">Принять</button>
+      </div>
+    </div>
+  </div> -->
+  <script src="assets/scripts/bundle.js"></script>
+</body>
+
+</html>
